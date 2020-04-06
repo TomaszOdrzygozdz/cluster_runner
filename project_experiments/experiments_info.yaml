@@ -1,0 +1,10 @@
+'18177761':
+  name: GANs
+  nodelist: p2279
+  nodes: '1'
+  remote_entry_point: /home/tomasz/ML_Research/bayesian_ML/GANs/cluster_runner/local_storage/hello_cluster_runner.py_6789659.py
+  remote_error: /net/archive/groups/plggluna/plgtodrzygozdz/projects/GANs/test1/outputs/err__hello_cluster_runner.py_6789659.py__.err
+  remote_output: /net/archive/groups/plggluna/plgtodrzygozdz/projects/GANs/test1/outputs/out__hello_cluster_runner.py_6789659.py__.out
+  status: D
+  time: 0:21
+  time_limit: 00:05:00

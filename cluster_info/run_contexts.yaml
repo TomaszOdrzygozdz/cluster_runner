@@ -1,0 +1,11 @@
+single_run :
+  experiment_name: 'Splendor-experiment'
+  job_name : Splendor
+  n_nodes : 1
+  n_tasks_per_node : 1
+  mem_per_cpu : 5GB
+  time : 00:05:00
+  grant_name : sim2real2
+  partition : plgrid-now
+  remote_subfolder : test1
+  follow_output : True

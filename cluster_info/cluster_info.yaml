@@ -1,0 +1,6 @@
+login : plgtodrzygozdz@pro.cyfronet.pl
+user : plgtodrzygozdz
+remote_venv: /net/people/plgtodrzygozdz/python_venvs/splendor/bin/activate
+remove_storage_path: /net/archive/groups/plggluna/plgtodrzygozdz/projects/
+local_storage_path: /home/tomasz/ML_Research/bayesian_ML/GANs/cluster_runner/local_storage
+local_experiments_path: /home/tomasz/ML_Research/bayesian_ML/GANs/cluster_runner/project_experiments/experiments_info.yaml
