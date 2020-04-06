@@ -18,7 +18,7 @@ LABELS_X = 250
 RUN_COLOR = 'green'
 DONE_COLOR = 'black'
 FONT = 'ArialBlack 14'
-OUTPUT_BUTTON_POSITION = 550
+OUTPUT_BUTTON_POSITION = 600
 BUTTON_X_SHIFT = 100
 BUTTON_WIDTH = 100
 BUTTON_SEPARATOR = 10
@@ -160,6 +160,3 @@ class ClusterRunnerGUI:
                              func=lambda _: delete_job(job_id))
         self.canvas.tag_bind(buttonDEL_TXT, "<Button-1>",
                              func=lambda _: delete_job(job_id))
-
-
-ClusterRunnerGUI()

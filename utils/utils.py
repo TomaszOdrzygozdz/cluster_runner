@@ -4,7 +4,7 @@ import subprocess
 
 
 def load_cluster_info():
-    with open("../cluster_info/cluster_info.yaml", 'r') as stream:
+    with open("cluster_info/cluster_info.yaml", 'r') as stream:
         cluster_info = yaml.safe_load(stream)
 
     return cluster_info
@@ -15,12 +15,12 @@ def load_ready_contexts():
     return ready_contexts
 
 def read_all_experiments():
-    with open("../project_experiments/experiments_info.yaml", 'r') as stream:
+    with open("project_experiments/experiments_info.yaml", 'r') as stream:
         all_experiments = yaml.safe_load(stream)
     return all_experiments
 
 def save_all_experiments(all_experiments_data):
-    with open("../project_experiments/experiments_info.yaml", 'w') as stream:
+    with open("project_experiments/experiments_info.yaml", 'w') as stream:
         yaml.dump(all_experiments_data, stream)
 
 def read_context(file_name):
